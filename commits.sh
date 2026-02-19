@@ -2,7 +2,7 @@
 
 for i in $1
 do
-	touch $.txt
+	touch $i.txt
 	git add .
 	git commit -m "added+"
 	git push
